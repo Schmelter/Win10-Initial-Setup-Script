@@ -4,11 +4,11 @@ RequireAdmin
 
 DisableTelemetry
 DisableWiFiSense
-# DisableSmartScreen
+DisableSmartScreen
 DisableWebSearch
 DisableAppSuggestions
 DisableActivityHistory
-DisableBackgroundApps
+EnableBackgroundApps
 DisableLocationTracking
 DisableMapUpdates
 DisableFeedback
@@ -17,95 +17,97 @@ DisableAdvertisingID
 DisableWebLangList
 DisableCortana
 DisableErrorReporting
-# SetP2PUpdateLocal
+SetP2PUpdateInternet
 DisableDiagTrack
 DisableWAPPush
 
-# SetUACLow
-# EnableSharingMappedDrives
-DisableAdminShares
-# DisableSMB1
-# DisableSMBServer
-# DisableLLMNR
+SetUACLow
+EnableSharingMappedDrives
+EnableAdminShares
+DisableSMB1
+DisableSMBServer
+DisableLLMNR
 SetCurrentNetworkPrivate
-# SetUnknownNetworksPrivate
-# DisableNetDevicesAutoInst
-# EnableCtrldFolderAccess
-# DisableFirewall
-# DisableDefender
-# DisableDefenderCloud
+SetUnknownNetworksPrivate
+DisableNetDevicesAutoInst
+DisableCtrldFolderAccess
+DisableFirewall
+DisableDefender
+DisableDefenderCloud
 EnableF8BootMenu
 SetDEPOptOut
-# EnableCIMemoryIntegrity
+EnableCIMemoryIntegrity
 DisableScriptHost
 EnableDotNetStrongCrypto
-# EnableMeltdownCompatFlag
+DisableMeltdownCompatFlag
 
-# DisableUpdateMSRT
-# DisableUpdateDriver
+DisableUpdateMSRT
+EnableUpdateDriver
 DisableUpdateRestart
-# DisableHomeGroups
+DisableHomeGroups
 DisableSharedExperiences
 DisableRemoteAssistance
 EnableRemoteDesktop
 DisableAutoplay
 DisableAutorun
-# EnableStorageSense
-# DisableDefragmentation
-# DisableSuperfetch
-# DisableIndexing
+DisableStorageSense
+DisableDefragmentation
+DisableSuperfetch
+DisableIndexing
 # SetBIOSTimeUTC
-# EnableHibernation
-# DisableSleepButton
-# DisableSleepTimeout
-# DisableFastStartup
+DisableHibernation
+DisableSleepButton
+DisableSleepTimeout
+DisableFastStartup
 
 DisableActionCenter
 HideAccountProtectionWarn
 DisableLockScreen
 # DisableLockScreenRS1
 HideNetworkFromLockScreen
-HideShutdownFromLockScreen
+HideShutdownFromLockScreen  # May want to change later
 DisableStickyKeys
 ShowTaskManagerDetails
 ShowFileOperationsDetails
-# EnableFileDeleteConfirm
+EnableFileDeleteConfirm  # May want to change later
 HideTaskbarSearch
 HideTaskView
-ShowSmallTaskbarIcons
+ShowLargeTaskbarIcons  # May want to change later
 SetTaskbarCombineWhenFull
 HideTaskbarPeopleIcon
 ShowTrayIcons
 DisableSearchAppInStore
-DisableNewAppPrompt
-# SetControlPanelSmallIcons
-SetVisualFXPerformance
+EnableNewAppPrompt  # May want to change later
+SetControlPanelLargeIcons  # May want to change later
+SetVisualFXAppearance  # May want to change later
 # AddENKeyboard
-# EnableNumlock
+DisableNumlock  # May want to change later
 
 ShowKnownExtensions
 ShowHiddenFiles
-HideSelectCheckboxes
+ShowSelectCheckboxes  # May want to change later
 HideSyncNotifications
 HideRecentShortcuts
 SetExplorerThisPC
+
+# Customization of what icons are shown in the explorer - Look at these later
 ShowThisPCOnDesktop
-# ShowUserFolderOnDesktop
-HideDesktopFromThisPC
-# HideDesktopFromExplorer
-HideDocumentsFromThisPC
-# HideDocumentsFromExplorer
-HideDownloadsFromThisPC
-# HideDownloadsFromExplorer
-HideMusicFromThisPC
-# HideMusicFromExplorer
-HidePicturesFromThisPC
-# HidePicturesFromExplorer
-HideVideosFromThisPC
-# HideVideosFromExplorer
-Hide3DObjectsFromThisPC
-# Hide3DObjectsFromExplorer
-# DisableThumbnails
+ShowUserFolderOnDesktop
+ShowDesktopInThisPC
+ShowDesktopInExplorer
+ShowDocumentsInThisPC
+ShowDocumentsInExplorer
+ShowDownloadsInThisPC
+ShowDownloadsInExplorer
+ShowMusicInThisPC
+ShowMusicInExplorer
+ShowPicturesInThisPC
+ShowPicturesInExplorer
+ShowVideosInThisPC
+ShowVideosInExplorer
+Show3DObjectsInThisPC
+Show3DObjectsInExplorer
+EnableThumbnails
 DisableThumbnailCache
 DisableThumbsDBOnNetwork
 
@@ -113,7 +115,7 @@ DisableOneDrive
 UninstallOneDrive
 UninstallMsftBloat
 UninstallThirdPartyBloat
-# UninstallWindowsStore
+# InstallWindowsStore
 DisableXboxFeatures
 DisableAdobeFlash
 DisableEdgeShortcutCreation
@@ -125,9 +127,9 @@ DisableEdgeShortcutCreation
 SetPhotoViewerAssociation
 AddPhotoViewerOpenWith
 # UninstallPDFPrinter
-UninstallXPSPrinter
+# UninstallXPSPrinter
 RemoveFaxPrinter
-# UninstallFaxAndScan
+UninstallFaxAndScan
 
 # HideServerManagerOnLogin
 # DisableShutdownTracker
