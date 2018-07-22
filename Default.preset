@@ -72,11 +72,11 @@ ShowFileOperationsDetails
 EnableFileDeleteConfirm  # May want to change later
 HideTaskbarSearch
 ShowTaskView   # Show multiple desktops
-ShowSmallTaskbarIcons  # May want to change later
+ShowLargeTaskbarIcons  # May want to change later
 SetTaskbarCombineAlways  # May want to change later
 HideTaskbarPeopleIcon
 ShowTrayIcons
-DisableSearchAppInfStoredasfda
+DisableSearchAppInStore
 EnableNewAppPrompt  # May want to change later
 SetControlPanelLargeIcons  # May want to change later
 SetVisualFXAppearance  # May want to change later
